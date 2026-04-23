@@ -69,10 +69,10 @@ export default function page() {
   return (
    <>
       <Banner
-        title="Eazy conveyancing"
+        title="Eazy Conveyancing"
         subheading="Stress-Free Property Settlements"
         description="From contract review to final settlement, we handle the entire conveyancing process with precision and care."
-        buttonText="Chat with Us"
+        buttonText="Chat With Us"
         buttonUrl="https://wa.me/61433101353"
         imageUrl="/banner.png"
       />
@@ -102,7 +102,7 @@ export default function page() {
       content="We work closely with buyers, sellers, real estate agents, and lenders to ensure every transaction runs smoothly."
     />
     <CTA
-      title="Buying a property?"
+      title="Buying a Property?"
       description="Before signing a contract, it is important to understand the terms and conditions. We offer a contract review service to help you understand key clauses and obligations before proceeding with your purchase."
       whatsappNumber="61433101353"
     />

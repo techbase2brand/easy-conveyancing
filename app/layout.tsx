@@ -33,10 +33,10 @@ export default function RootLayout({
         <Header />
         {children}
         <Consulting 
-          title="CONSULTING"
+          title="Consulting"
           description="Let a registered conveyancer manage your settlement with confidence."
           imageUrl="/home-insurance-coverage-estate-residential 1.webp"
-          buttonText="Chat with Us"
+          buttonText="Chat With Us"
           buttonUrl="https://wa.me/61433101353"
           
         />
