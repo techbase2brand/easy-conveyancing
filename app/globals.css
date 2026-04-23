@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ECECEC;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: #AB090F;
+  --color-secondary: #535456;
+
+  /*Poppins font */
+  --font-sans: var(--font-poppins);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { 
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Global styles */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.stroke-text {
+  -webkit-text-stroke: 1px #FF8989; /* light red outline */
+}
+.stroke-text-2{
+  -webkit-text-stroke:1px #A7A7A7; /* darker red outline */
+}
+
+
+
+
+.process-card {
+  @apply border border-white rounded-2xl p-4 md:p-6 h-full transition-all duration-300 opacity-100;
+}
+
+/* 🔥 ONLY middle card (2nd visible) */
+.swiper-slide-next .process-card {
+  @apply opacity-100 bg-[#910005] shadow-xl;
+}
+
