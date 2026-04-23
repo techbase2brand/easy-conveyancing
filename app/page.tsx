@@ -9,7 +9,7 @@ import OurProcess from "./component/OurProcess";
 import Testimonials from "./component/Testimonials";
 
 
-export default function Home() {
+export default function page() {
   const servicesData = [
     "Settlement of Sale and Purchase",
     "Private Contracts and Form 1",
