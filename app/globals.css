@@ -30,7 +30,9 @@ body {
 .stroke-text-2{
   -webkit-text-stroke:1px #A7A7A7; /* darker red outline */
 }
-
+.stroke-text-3{
+  -webkit-text-stroke:1px #fff; /* darker red outline */
+}
 
 
 
