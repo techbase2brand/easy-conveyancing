@@ -271,7 +271,7 @@ const Header = memo(() => {
                             onClick={() => setActiveServiceSubmenu(null)}>
                             <div className={`text-sm transition-colors ${
                               isActiveLink(subItem.href)
-                                ? 'text-primary font-semibold'
+                                ? 'text-primary'
                                 : 'text-secondary hover:text-primary hover:underline'
                             }`}>
                               {subItem.label}
@@ -361,7 +361,7 @@ const Header = memo(() => {
                           >
                             <div className={`text-sm transition-colors ${
                               isActiveLink(subItem.href)
-                                ? 'text-primary font-semibold'
+                                ? 'text-primary'
                                 : 'text-secondary hover:text-primary'
                             }`}>
                               {subItem.label}
