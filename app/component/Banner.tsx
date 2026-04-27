@@ -91,6 +91,7 @@ const Banner = ({
                   height={400}
                   className="object-contain w-full h-auto"
                   priority
+                  fetchPriority="high"
                 />
               </div>
             )}

@@ -33,7 +33,7 @@ const Header = memo(() => {
     { label: 'Home', href: '/' },
     { label: 'About Us', href: '/about' },
     { label: 'Services', href: '/services' },
-    { label: 'Contact Us', href: '/contact' },
+    { label: 'Contact Us', href: '/contact-us' },
   ];
 
   // Services with submenu items
@@ -41,25 +41,22 @@ const Header = memo(() => {
     label: 'Services',
     href: '/services',
     subItems: [
+      
       {
-        label: 'Property Valuation',
-        href: '/services/property-valuation',
+        label: 'Settlement of Sale and Purchase of Property',
+        href: '/services/settlement-of-sale-and-purchase-of-property',
       },
       {
-        label: 'Legal Documentation',
-        href: '/services/legal-documentation',
+        label: 'Private Contracts and Form 1',
+        href: '/services/private-contracts-and-form-1',
       },
       {
-        label: 'Property Management',
-        href: '/services/property-management',
+        label: 'Commercial Settlements',
+        href: '/services/commercial-settlements',
       },
       {
-        label: 'Investment Advisory',
-        href: '/services/investment-advisory',
-      },
-      {
-        label: 'Mortgage Assistance',
-        href: '/services/mortgage-assistance',
+        label: 'Family Transfers',
+        href: '/services/family-transfers',
       },
       {
         label: 'Land Divisions',
@@ -208,6 +205,7 @@ const Header = memo(() => {
             className="object-cover w-[60px] sm:w-[80px] md:w-[80px] lg:w-[80px]"
             sizes="(max-width: 640px) 60px, (max-width: 768px) 80px, 90px"
             priority
+            fetchPriority="high"
           />
         </Link>
 

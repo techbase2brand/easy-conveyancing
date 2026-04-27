@@ -125,10 +125,10 @@ export default function OurProcess({ title, subheading, description }: OurProces
             </p>
           </div>
           <div className="button-wraper-next-prev hidden md:flex gap-2.5 relative">
-            <button className="custom-prev cursor-pointer w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed">
+            <button aria-label="prev button" className="custom-prev cursor-pointer w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed">
               {prevArrow}
             </button>
-            <button className="custom-next cursor-pointer w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed">
+            <button aria-label="next button" className="custom-next cursor-pointer w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed">
               {nextArrow}
             </button>
           </div>

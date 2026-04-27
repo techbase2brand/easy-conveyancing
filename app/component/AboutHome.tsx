@@ -93,6 +93,7 @@ const AboutHome = ({
                   alt="Gallery image 1"
                   width={600}
                   height={400}
+                  fetchPriority="high"
                   className="w-full h-[220px] sm:h-[260px] md:h-[300px] lg:h-[350px] object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
@@ -106,6 +107,7 @@ const AboutHome = ({
                   alt="Gallery image 2"
                   width={600}
                   height={400}
+                  fetchPriority="high"
                   className="w-full h-[220px] sm:h-[260px] md:h-[300px] lg:h-[350px] object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
@@ -119,6 +121,7 @@ const AboutHome = ({
                   alt="Gallery image 3"
                   width={600}
                   height={400}
+                  fetchPriority="high"
                   className="w-full h-[220px] sm:h-[260px] md:h-[300px] lg:h-[350px] object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
@@ -152,6 +155,7 @@ const AboutHome = ({
                 w-[200px] 
                 h-auto
             "
+              fetchPriority="high"
             /> 
         )}
       </div>

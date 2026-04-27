@@ -67,6 +67,7 @@ const Consulting = ({
               height={450}
               className="object-cover pr-2 mb-[-2px]"
               priority={false}
+              fetchPriority="high"
             />
           </div>
 

@@ -118,6 +118,7 @@ const WhoWeAre: React.FC<WhyUsProps> = ({
                   width={700}
                   height={1000}
                   src={imageUrl} 
+                  fetchPriority="high"
                   alt="image" 
                   className="w-full h-full"
                 />

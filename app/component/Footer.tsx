@@ -107,7 +107,7 @@ const Footer = ({ description }: FooterProps) => {
                     {/* Logo & Social Section */}
                     <div className='logo-content'>
                         <Link href="/" title='Logo' aria-label='Logo'>
-                            <Image src="/logo.webp" alt="Logo" width={120} height={40} />
+                            <Image src="/logo.webp" fetchPriority="high" alt="Logo" width={120} height={40} />
                         </Link>
                         {description && <p className='text-xs md:text-base text-secondary mt-4'>{description}</p>}
                         <div className='social-media flex items-center space-x-3 mt-5'>
@@ -150,7 +150,7 @@ const Footer = ({ description }: FooterProps) => {
                     {/* Logo & Social Section - Always visible on mobile */}
                     <div className='logo-content text-center mb-0 md:mb-6'>
                         <Link href="/" title='Logo' aria-label='Logo' className='inline-block'>
-                            <Image src="/logo.webp" alt="Logo" width={120} height={40} />
+                            <Image   fetchPriority="high" src="/logo.webp" alt="Logo" width={120} height={40} />
                         </Link>
                         {description && <p className='text-secondary mt-2 text-sm md:text-base'>{description}</p>}
                         <div className='social-media flex items-center justify-center space-x-4 mt-4'>

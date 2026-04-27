@@ -29,20 +29,22 @@ export default function RootLayout({
       className={`${poppins.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">
-        <Annoucementbar />
-        <Header />
-        {children}
-        <Consulting 
-          title="Consulting"
-          description="Let a registered conveyancer manage your settlement with confidence."
-          imageUrl="/home-insurance-coverage-estate-residential 1.webp"
-          buttonText="Chat With Us"
-          buttonUrl="https://wa.me/61433101353"
-          
-        />
-        <Footer 
-          description="Contact us to learn more about the quality service we provide – the service you deserve!"
-        />
+        <main>
+          <Annoucementbar />
+          <Header />
+          {children}
+          <Consulting 
+            title="Consulting"
+            description="Let a registered conveyancer manage your settlement with confidence."
+            imageUrl="/home-insurance-coverage-estate-residential 1.webp"
+            buttonText="Chat With Us"
+            buttonUrl="https://wa.me/61433101353"
+            
+          />
+          <Footer 
+            description="Contact us to learn more about the quality service we provide – the service you deserve!"
+          />
+        </main>
       </body>
     </html>
   );

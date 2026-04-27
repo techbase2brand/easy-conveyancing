@@ -23,6 +23,7 @@ const ServicesSection = ({ services, imageUrl }: ServicesSectionProps) => {
                 alt="services"
                 width={700}
                 height={700}
+                fetchPriority="high"
                 className="w-full h-full object-cover"
               />
             </div>

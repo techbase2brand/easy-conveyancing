@@ -113,6 +113,7 @@ const WhyUs: React.FC<WhyUsProps> = ({
                   height={1000}
                   src={imageUrl} 
                   alt="image" 
+                  fetchPriority="high"
                   className="w-full h-full"
                 />
               )}
