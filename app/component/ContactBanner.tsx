@@ -183,10 +183,10 @@ const ContactBanner = ({ title, subtitle, description1, description, heading, su
 
   return (
     <div className='px-4 sm:px-6 lg:px-8 pt-10 md:pt-14 lg:pt-12 pb-5 md:pb-10'>
-      <div className='bg-primary relative rounded-2xl max-w-[1320px] w-full mx-auto p-6 sm:p-8 md:p-10 lg:p-12 text-white'>
+      <div className='bg-primary relative rounded-2xl max-w-[1320px] w-full mx-auto p-4 sm:p-6 md:p-10 lg:p-12 text-white'>
         <div className='grid grid-cols-1 gap-5 md:gap-10 md:grid-cols-2'>
           <div className='contact-left'>
-            {title && <h1 className='text-[32px] sm:text-[32px] md:text-[40px] lg:text-[95px] font-bold stroke-text mb-0 leading-tight border-b-2 border-[#AB090F] inline-block'>{title}</h1>}
+            {title && <h1 className='text-[45px] sm:text-[45px] md:text-[40px] lg:text-[95px] font-bold stroke-text mb-0 leading-tight border-b-2 border-[#AB090F] inline-block'>{title}</h1>}
             {subtitle && <h2 className='text-2xl md:text-4xl font-semibold text-white pb-3'>{subtitle}</h2>}
             {description && <p className='text-white text-sm sm:text-base md:text-base lg:text-base'>{description}</p>}
             {description1 && <p className='text-white text-sm sm:text-base md:text-base lg:text-base'>{description1}</p>}
