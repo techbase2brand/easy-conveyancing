@@ -292,7 +292,7 @@ const Footer = ({ description }: FooterProps) => {
                 </div>
 
                 <div className='copyright flex flex-wrap md:flex-nowrap text-secondary justify-center md:justify-between text-xs gap-2 md:text-base items-center border-t-1 border-secondary pt-8'>
-                    <p className='text-center md:text-left'>©2026 All Rights Reserved | eazyconveyancing | <Link className='hover:underline hover:text-primary' href="/privacy-policy" title='Privacy Policy' aria-label='Privacy Policy'>Privacy Policy</Link></p>
+                    <p className='text-center md:text-left'>©2026 All Rights Reserved | <Link className='hover:underline hover:text-primary' href='/' title='eazyconveyancing'>eazyconveyancing</Link> | <Link className='hover:underline hover:text-primary' href="/privacy-policy" title='Privacy Policy' aria-label='Privacy Policy'>Privacy Policy</Link></p>
                     <Link title='Designed By Base2brand' aria-label='Designed By Base2brand' className='hover:text-primary underline' href="https://base2brand.com" target="_blank" rel="noopener noreferrer">
                         Designed By Base2brand
                     </Link>
