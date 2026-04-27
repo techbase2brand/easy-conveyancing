@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
           <style>
             body { font-family: Arial, sans-serif; }
             .container { max-width: 600px; margin: 0 auto; }
-            h2 { color: #1a4d2a; }
+            h2 { color:#ab090f; }
             table { width: 100%; border-collapse: collapse; }
             td { padding: 10px; border: 1px solid #ddd; }
             .label { font-weight: bold; background-color: #f5f5f5; }
