@@ -28,7 +28,8 @@ const Page = () => {
             <ContactBanner 
                 title="Contact Us"
                 subtitle="Get in Touch With Eazy Conveyancing"
-                description="Have a question about buying or selling property?We’re here to help."
+                description="Have a question about buying or selling property?"
+                description1="We’re here to help."
                 heading="Quick Enquiry Form"
                 subheading="Let’s Make Your Property Transaction Easy"
                 subdescription="We respond quickly — usually within the same business day."

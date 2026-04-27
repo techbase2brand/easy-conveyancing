@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { memo, useState } from 'react';
+import { usePathname } from "next/navigation";
 
 type FooterProps = { description: string; };
 
@@ -11,9 +12,11 @@ const Footer = ({ description }: FooterProps) => {
     const [activeSection, setActiveSection] = useState<string | null>(null);
 
     const toggleSection = (section: string) => {
-        // If the clicked section is already open, close it; otherwise open the clicked section
         setActiveSection(activeSection === section ? null : section);
     };
+
+    // ✅ MOVED: usePathname hook HERE before using it
+    const pathname = usePathname();
 
     // LinkedIn icon
     const linkedin = (
@@ -62,22 +65,86 @@ const Footer = ({ description }: FooterProps) => {
     // Useful Links content
     const usefulLinksContent = ( 
         <ul className='text-sm text-secondary mt-2 space-y-2'>
-            <li><Link href="/" title='Home' aria-label='Home' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Home</Link></li>
-            <li><Link href="/about" title='About Us' aria-label='About Us' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>About Us</Link></li>
-            <li><Link href="/services/settlement-of-sale-and-purchase-of-property" title='Properties' aria-label='Properties' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Properties</Link></li>
-            <li><Link href="/services" title='Services' aria-label='Services' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Services</Link></li>
-            <li><Link href="/contact-us" title='Contact Us' aria-label='Contact Us' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Contact Us</Link></li>
+            <li><Link href="/" title='Home' aria-label='Home' className={`transition-all ${pathname === "/"? "underline text-primary": "hover:text-primary hover:underline"} text-sm md:text-base`}>Home</Link></li>
+            <li><Link href="/about" title='About Us' aria-label='About Us' className={`transition-all ${pathname === "/about"? "underline text-primary": "hover:text-primary hover:underline"} text-sm md:text-base`}>About Us</Link></li>
+            <li><Link href="/services/settlement-of-sale-and-purchase-of-property" title='Properties' aria-label='Properties' className={`transition-all ${pathname === "/services/settlement-of-sale-and-purchase-of-property"? "underline text-primary": "hover:text-primary hover:underline"} text-sm md:text-base`}>Properties</Link></li>
+            <li><Link href="/contact-us" title='Contact Us' aria-label='Contact Us' className={`transition-all ${pathname === "/contact-us"? "underline text-primary": "hover:text-primary hover:underline"} text-sm md:text-base`}>Contact Us</Link></li>
         </ul>
     );
 
-    // Our Services content
+    // Our Services content - ✅ FIXED: Removed duplicate className
     const ourServicesContent = (
         <ul className='text-sm text-secondary mt-2 space-y-2'>
-            <li><Link href="/services/settlement-of-sale-and-purchase-of-property" title='Settlement of Sale & Purchase of Property' aria-label='Settlement of Sale & Purchase of Property' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Settlement of Sale & Purchase of Property</Link></li>
-            <li><Link href="/services/private-contracts-and-form-1" title='Private Contracts and Form 1' aria-label='Private Contracts and Form 1' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Private Contracts and Form 1</Link></li>
-            <li><Link href="/services/commercial-settlements" title='Commercial Settlements' aria-label='Commercial Settlements' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Commercial Settlements</Link></li>
-            <li><Link href="/services/family-transfers" title='Family Transfers' aria-label='Family Transfers' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Family Transfers</Link></li>
-            <li><Link href="/services/land-divisions" title='Land Divisions' aria-label='Land Divisions' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Land Divisions</Link></li>
+            <li>
+                <Link 
+                    href="/services/settlement-of-sale-and-purchase-of-property" 
+                    title='Settlement of Sale & Purchase of Property' 
+                    aria-label='Settlement of Sale & Purchase of Property' 
+                    className={`transition-all ${
+                        pathname === "/services/settlement-of-sale-and-purchase-of-property"
+                            ? "underline text-primary"
+                            : "hover:text-primary hover:underline"
+                    } text-sm md:text-base`}
+                >
+                    Settlement of Sale & Purchase of Property
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    href="/services/private-contracts-and-form-1" 
+                    title='Private Contracts and Form 1' 
+                    aria-label='Private Contracts and Form 1' 
+                    className={`transition-all ${
+                        pathname === "/services/private-contracts-and-form-1"
+                            ? "underline text-primary"
+                            : "hover:text-primary hover:underline"
+                    } text-sm md:text-base`}
+                >
+                    Private Contracts and Form 1
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    href="/services/commercial-settlements" 
+                    title='Commercial Settlements' 
+                    aria-label='Commercial Settlements' 
+                    className={`transition-all ${
+                        pathname === "/services/commercial-settlements"
+                            ? "underline text-primary"
+                            : "hover:text-primary hover:underline"
+                    } text-sm md:text-base`}
+                >
+                    Commercial Settlements
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    href="/services/family-transfers" 
+                    title='Family Transfers' 
+                    aria-label='Family Transfers' 
+                    className={`transition-all ${
+                        pathname === "/services/family-transfers"
+                            ? "underline text-primary"
+                            : "hover:text-primary hover:underline"
+                    } text-sm md:text-base`}
+                >
+                    Family Transfers
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    href="/services/land-divisions" 
+                    title='Land Divisions' 
+                    aria-label='Land Divisions' 
+                    className={`transition-all ${
+                        pathname === "/services/land-divisions"
+                            ? "underline text-primary"
+                            : "hover:text-primary hover:underline"
+                    } text-sm md:text-base`}
+                >
+                    Land Divisions
+                </Link>
+            </li>
         </ul>
     );
 
@@ -150,7 +217,7 @@ const Footer = ({ description }: FooterProps) => {
                     {/* Logo & Social Section - Always visible on mobile */}
                     <div className='logo-content text-center mb-0 md:mb-6'>
                         <Link href="/" title='Logo' aria-label='Logo' className='inline-block'>
-                            <Image   fetchPriority="high" src="/logo.webp" alt="Logo" width={120} height={40} />
+                            <Image fetchPriority="high" src="/logo.webp" alt="Logo" width={120} height={40} />
                         </Link>
                         {description && <p className='text-secondary mt-2 text-sm md:text-base'>{description}</p>}
                         <div className='social-media flex items-center justify-center space-x-4 mt-4'>
@@ -211,7 +278,8 @@ const Footer = ({ description }: FooterProps) => {
                         <button 
                             onClick={() => toggleSection('contactInfo')}
                             className='w-full flex justify-between items-center py-0 text-left font-semibold text-gray-800'
-                            aria-expanded={activeSection === 'contactInfo'}>
+                            aria-expanded={activeSection === 'contactInfo'}
+                        >
                             <span>Contact Us</span>
                             <span className={`transform transition-transform duration-300 ${activeSection === 'contactInfo' ? 'rotate-180' : ''}`}>
                                 <ChevronDown />
@@ -224,7 +292,7 @@ const Footer = ({ description }: FooterProps) => {
                 </div>
 
                 <div className='copyright flex flex-wrap md:flex-nowrap text-secondary justify-center md:justify-between text-xs gap-2 md:text-base items-center border-t-1 border-secondary pt-8'>
-                    <p className='text-center md:text-left'>©2026 All Rights Reserved | eazyconveyancing | Privacy Policy</p>
+                    <p className='text-center md:text-left'>©2026 All Rights Reserved | eazyconveyancing | Privacy Policy</p>
                     <Link title='Designed By Base2brand' aria-label='Designed By Base2brand' className='hover:text-primary underline' href="https://base2brand.com" target="_blank" rel="noopener noreferrer">
                         Designed By Base2brand
                     </Link>
