@@ -5,6 +5,18 @@ import PlaningCta from '@/app/component/PlaningCta';
 import Testimonials from '@/app/component/Testimonials';
 import WhatIsLanding from '@/app/component/WhatIsLanding';
 
+export const metadata = {
+  title: "Land Division & Subdivision Conveyancing | Eazy Conveyancing",
+  description:
+    "Expert land division and subdivision conveyancing services. Get professional help with planning approvals and land title registration.",
+  keywords: [
+    "Land Division",
+    "Subdivision Conveyancing",
+    "Land Title Registration",
+    "Property Subdivision Services",
+  ],
+};
+
 const items = [
   "Title division applications",
   "Liaison with surveyors",

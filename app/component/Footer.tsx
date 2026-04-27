@@ -60,11 +60,11 @@ const Footer = ({ description }: FooterProps) => {
     );
 
     // Useful Links content
-    const usefulLinksContent = (
+    const usefulLinksContent = ( 
         <ul className='text-sm text-secondary mt-2 space-y-2'>
             <li><Link href="/" title='Home' aria-label='Home' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Home</Link></li>
-            <li><Link href="/about-us" title='About Us' aria-label='About Us' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>About Us</Link></li>
-            <li><Link href="/properties" title='Properties' aria-label='Properties' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Properties</Link></li>
+            <li><Link href="/about" title='About Us' aria-label='About Us' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>About Us</Link></li>
+            <li><Link href="/services/settlement-of-sale-and-purchase-of-property" title='Properties' aria-label='Properties' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Properties</Link></li>
             <li><Link href="/services" title='Services' aria-label='Services' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Services</Link></li>
             <li><Link href="/contact-us" title='Contact Us' aria-label='Contact Us' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Contact Us</Link></li>
         </ul>
@@ -73,11 +73,11 @@ const Footer = ({ description }: FooterProps) => {
     // Our Services content
     const ourServicesContent = (
         <ul className='text-sm text-secondary mt-2 space-y-2'>
-            <li><Link href="/" title='Settlement of Sale & Purchase of Property' aria-label='Settlement of Sale & Purchase of Property' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Settlement of Sale & Purchase of Property</Link></li>
-            <li><Link href="/" title='Private Contracts and Form 1' aria-label='Private Contracts and Form 1' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Private Contracts and Form 1</Link></li>
-            <li><Link href="/" title='Commercial Settlements' aria-label='Commercial Settlements' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Commercial Settlements</Link></li>
-            <li><Link href="/" title='Family Transfers' aria-label='Family Transfers' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Family Transfers</Link></li>
-            <li><Link href="/" title='Land Divisions' aria-label='Land Divisions' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Land Divisions</Link></li>
+            <li><Link href="/services/settlement-of-sale-and-purchase-of-property" title='Settlement of Sale & Purchase of Property' aria-label='Settlement of Sale & Purchase of Property' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Settlement of Sale & Purchase of Property</Link></li>
+            <li><Link href="/services/private-contracts-and-form-1" title='Private Contracts and Form 1' aria-label='Private Contracts and Form 1' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Private Contracts and Form 1</Link></li>
+            <li><Link href="/services/commercial-settlements" title='Commercial Settlements' aria-label='Commercial Settlements' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Commercial Settlements</Link></li>
+            <li><Link href="/services/family-transfers" title='Family Transfers' aria-label='Family Transfers' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Family Transfers</Link></li>
+            <li><Link href="/services/land-divisions" title='Land Divisions' aria-label='Land Divisions' className='hover:text-primary hover:underline transition-all text-sm md:text-base'>Land Divisions</Link></li>
         </ul>
     );
 

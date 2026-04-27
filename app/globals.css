@@ -25,13 +25,16 @@ body {
 }
 
 .stroke-text {
-  -webkit-text-stroke: 1px #FF8989; /* light red outline */
+  -webkit-text-stroke: 1px #FF8989; 
+  color:transparent;
 }
 .stroke-text-2{
-  -webkit-text-stroke:1px #A7A7A7; /* darker red outline */
+  -webkit-text-stroke:1px #A7A7A7; 
+  color:transparent;
 }
 .stroke-text-3{
-  -webkit-text-stroke:1px #fff; /* darker red outline */
+  -webkit-text-stroke:1px #fff; 
+  color:transparent;
 }
 
 

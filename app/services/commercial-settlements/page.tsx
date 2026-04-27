@@ -5,6 +5,19 @@ import PlaningCta from '@/app/component/PlaningCta';
 
 import Testimonials from '@/app/component/Testimonials';
 
+export const metadata = {
+  title: "Property Transfers Between Family Members | Eazy Conveyancing",
+  description:
+    "Expert conveyancing for family property transfers including spouse transfers. Simple, affordable, and legally compliant services.",
+  keywords: [
+    "Family Property Transfer",
+    "Spouse Property Transfer",
+    "Transfer Property Between Family Members",
+    "Conveyancing Services",
+  ],
+};
+
+
 const Page = () => {
     const item = [
         "Retail property settlements",

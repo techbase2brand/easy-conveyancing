@@ -6,6 +6,19 @@ import PlaningCta from '@/app/component/PlaningCta';
 import Testimonials from '@/app/component/Testimonials';
 import OurProcess from '@/app/component/OurProcess';
 
+
+export const metadata = {
+  title: "Property Transfers Between Family Members | Eazy Conveyancing",
+  description:
+    "Expert conveyancing for family property transfers including spouse transfers. Simple, affordable, and legally compliant services.",
+  keywords: [
+    "Family Property Transfer",
+    "Spouse Property Transfer",
+    "Transfer Property Between Family Members",
+    "Conveyancing Services",
+  ],
+};
+
 const Page = () => {
   const item = [
     "Spouse transfers",
@@ -26,7 +39,7 @@ const Page = () => {
         <Banner
             title="Family Transfers"
             subheading="Property Transfers Between Family Members"
-            description="Transferring property to a spouse or family member? We make the legal process simple and affordable."
+            description="Transferring property to a spouse or family member?We make the legal process simple and affordable."
             buttonText="Chat With Us"
             buttonUrl="https://wa.me/61433101353"
             imageUrl="/family-transfer.png"

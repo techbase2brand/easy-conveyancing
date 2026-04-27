@@ -17,7 +17,7 @@ const WhoWeHelp = ({ title, description, item }: WhoWeHelpProps) => {
                     <div className='grid grid-cols-1 md:grid-cols-2'>
                         <div className='heading'>
                             {title && (
-                                <h2 className='text-[24px] sm:text-[32px] leading-normal md:leading-22 md:text-[60px] lg:text-[85px] text-left font-bold text-transparent stroke-text mb-0 sm:mb-4 pb-2 sm:pb-3'>
+                                <h2 className='text-[24px] sm:text-[32px] leading-normal md:leading-22 md:text-[60px] lg:text-[85px] text-left font-bold stroke-text mb-0 sm:mb-4 pb-2 sm:pb-3'>
                                     {title}
                                 </h2>
                             )}

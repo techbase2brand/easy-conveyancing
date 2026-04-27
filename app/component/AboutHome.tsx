@@ -43,7 +43,7 @@ const AboutHome = ({
         
         {/* Title */}
         {title && (
-          <h2 className="text-[24px] md:text-[40px] font-bold text-transparent stroke-text-2 mb-4 md:mb-7 border-b border-[#D9D9D9] inline-block">
+          <h2 className="text-[24px] md:text-[40px] font-bold stroke-text-2 mb-4 md:mb-7 border-b border-[#D9D9D9] inline-block">
             {title}
           </h2>
         )}

@@ -4,6 +4,18 @@ import OurProcess from '../component/OurProcess';
 import WhyClientChoose from '../component/WhyClientChoose';
 import ContactBanner from '../component/ContactBanner';
 
+export const metadata = {
+  title: "Contact Eazy Conveyancing | Get a Free Property Quote",
+  description:
+    "Contact Eazy Conveyancing for expert property settlement services and quick enquiries.",
+  openGraph: {
+    title: "Contact Eazy Conveyancing",
+    description:
+      "Reach out for stress-free property settlement and conveyancing services.",
+    type: "website",
+  },
+};
+
 const Page = () => {
     const WhyItem = [
         "Friendly professional advice",

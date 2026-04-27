@@ -8,6 +8,18 @@ import WhoWeHelp from '../component/WhoWeHelp';
 import OurMission from '../component/OurMission';
 import WhyClientChoose from '../component/WhyClientChoose';
 
+export const metadata = {
+  title: "About Eazy Conveyancing | Experienced Registered Conveyancers",
+  description:
+    "Learn about Eazy Conveyancing, led by experienced registered conveyancers. We provide professional, stress-free property settlement services.",
+  keywords: [
+    "About Conveyancing",
+    "Registered Conveyancer",
+    "Property Settlement Experts",
+    "Real Estate Legal Services",
+  ],
+};
+
 
 const Page = () => {
     const item = [
@@ -41,6 +53,8 @@ const Page = () => {
         "Reliable communication",
         "Focus on protecting your interests",
     ];
+
+    
 
   return (
     <>

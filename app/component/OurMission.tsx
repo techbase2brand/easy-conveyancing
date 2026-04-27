@@ -32,7 +32,7 @@ const OurMission = ({
           {/* LEFT */}
           <div className="order-2 md:order-1">
             {title && (
-              <h2 className="text-[28px] max-w-full md:max-w-[200px] sm:text-[36px] md:text-[50px] lg:text-[70px] leading-tight md:leading-[70px] font-bold text-transparent stroke-text-3 mb-3 md:mb-5 inline-block">
+              <h2 className="text-[28px] max-w-full md:max-w-[200px] sm:text-[36px] md:text-[50px] lg:text-[70px] leading-tight md:leading-[70px] font-bold stroke-text-3 mb-3 md:mb-5 inline-block">
                 {title}
               </h2>
             )}
@@ -57,7 +57,7 @@ const OurMission = ({
           {/* RIGHT */}
           <div className=" md:order-1">
             {title2 && (
-              <h2 className="text-[28px] max-w-full md:max-w-[200px] sm:text-[36px] md:text-[50px] lg:text-[70px] leading-tight md:leading-[70px] font-bold text-transparent stroke-text-3 mb-3 md:mb-5 inline-block">
+              <h2 className="text-[28px] max-w-full md:max-w-[200px] sm:text-[36px] md:text-[50px] lg:text-[70px] leading-tight md:leading-[70px] font-bold stroke-text-3 mb-3 md:mb-5 inline-block">
                 {title2}
               </h2>
             )}

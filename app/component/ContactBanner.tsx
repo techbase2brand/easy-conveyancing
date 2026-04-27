@@ -154,7 +154,7 @@ const ContactBanner = ({ title, subtitle, description, heading, subheading, subd
         <div className='bg-primary relative rounded-2xl max-w-[1320px] w-full mx-auto p-6 sm:p-8 md:p-10 lg:p-12 text-white'>
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div className='contact-left'>
-                    {title && <h1 className='text-[24px] sm:text-[32px] md:text-[40px] lg:text-[95px] font-bold text-transparent stroke-text mb-3 sm:mb-4 pb-2 sm:pb-3 border-b-2 border-[#AB090F] inline-block'>{title}</h1>}
+                    {title && <h1 className='text-[24px] sm:text-[32px] md:text-[40px] lg:text-[95px] font-bold stroke-text mb-3 sm:mb-4 pb-2 sm:pb-3 border-b-2 border-[#AB090F] inline-block'>{title}</h1>}
                     {subtitle && <h2 className='text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-4'>{subtitle}</h2>}
                     {description && <p className='text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl'>{description}</p>}
                 </div>

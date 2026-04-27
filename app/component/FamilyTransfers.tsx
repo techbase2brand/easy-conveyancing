@@ -65,7 +65,7 @@ const FamilyTransfers: React.FC<WhyUsProps> = ({
           <div className="flex sm:flex-row justify-between items-center gap-5 mb-8">
 
             {title && (
-              <h2 className="text-[24px] md:text-[40px] font-bold text-transparent stroke-text-2 border-b border-[#D9D9D9] inline-block">
+              <h2 className="text-[24px] md:text-[40px] font-bold stroke-text-2 border-b border-[#D9D9D9] inline-block">
                 {title}
               </h2>
             )}

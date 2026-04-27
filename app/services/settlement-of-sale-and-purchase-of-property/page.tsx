@@ -7,6 +7,19 @@ import WhatIsLanding from '@/app/component/WhatIsLanding';
 
 import { memo } from 'react';
 
+export const metadata = {
+  title: "Property Settlement Made Easy & Stress-Free | Eazy Conveyancing",
+  description:
+    "Buying or selling a property? We ensure your settlement process is smooth, compliant, and completed on time. Open Mon-Sun 8am-8pm.",
+  keywords: [
+    "Property Settlement",
+    "Easy Property Settlement",
+    "Settlement of Sale and Purchase of Property",
+    "Stress Free Conveyancing",
+    "Property Settlement Services",
+  ],
+};
+
 const Page = () => {
     const items = [
   "Contract review before signing",

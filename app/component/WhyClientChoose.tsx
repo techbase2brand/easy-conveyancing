@@ -19,7 +19,7 @@ const WhyClientChoose = ({ title, description, imageUrl, item }: WhyClientChoose
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-14 lg:gap-20 items-start px-4 sm:px-6 lg:px-8'>
                     <div className='content'>
                         {title && (
-                            <h2 className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[45px] font-bold text-transparent stroke-text mb-3 sm:mb-4 pb-2 sm:pb-3 border-b-2 border-[#AB090F] inline-block">
+                            <h2 className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[45px] font-bold stroke-text mb-3 sm:mb-4 pb-2 sm:pb-3 border-b-2 border-[#AB090F] inline-block">
                                 {title}
                             </h2>
 

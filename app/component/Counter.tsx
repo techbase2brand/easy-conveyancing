@@ -79,13 +79,13 @@ const CounterBox = ({ value, suffix, label, start }: BoxProps) => {
 
   return (
     <div>
-      <h3 className="text-2xl sm:text-3xl md:text-3xl font-bold text-secondary">
+      <h2 className="text-2xl sm:text-3xl md:text-3xl font-bold text-secondary">
         {count.toLocaleString()}
         {suffix}
-      </h3>
-      <p className="text-xs sm:text-sm md:sm text-secondary mt-1 tracking-wide">
+      </h2>
+      <h3 className="text-xs sm:text-sm md:sm text-secondary mt-1 tracking-wide">
         {label}
-      </p>
+      </h3>
     </div>
   );
 };

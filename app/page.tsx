@@ -8,6 +8,12 @@ import WhyUs from "./component/WhyUs";
 import OurProcess from "./component/OurProcess";
 import Testimonials from "./component/Testimonials";
 
+export const metadata = {
+  title: "Eazy Conveyancing | Stress-Free Property Settlements",
+  description:
+    "Eazy Conveyancing offers reliable and stress-free property settlement services. From contract review to final settlement, we handle everything with precision and care.",
+};
+
 
 export default function page() {
   const servicesData = [
@@ -83,7 +89,7 @@ export default function page() {
         subheading="About Eazy Conveyancing"
         description="At Eazy Conveyancing, we make property settlements simple and stress-free. Led by Registered Conveyancer Sukhvinder Sidhu, we provide professional conveyancing services for property buyers, sellers, and investors across South Australia."
         readMoreText="Read More"
-        readMoreUrl="/"
+        readMoreUrl="/about"
         imageUrl1="/about-gallery-one.png"
         imageUrl2="/about-gallery-two.png"
         imageContent="Our goal is to provide clear communication, reliable service, and peace of mind throughout the settlement process."
@@ -95,7 +101,7 @@ export default function page() {
       subheading="Why Choose Eazy Conveyancing"
       description="Choosing the right conveyancer can make the settlement process smooth and stress-free."
       readMoreText="Read More"
-      readMoreUrl="/"
+      readMoreUrl="/about"
       itemHeading="At Eazy Conveyancing you receive:"
       item={item}
       imageUrl="/why-choose.png"

@@ -111,7 +111,7 @@ export default function OurProcess({ title, subheading, description }: OurProces
     <div className="py-10 md:py-14 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1320px] px-4 sm:px-6 lg:px-8 mx-auto py-10 md:py-16 bg-primary rounded-3xl relative">
         {/* Header */}
-        <h2 className="text-[24px] md:text-[40px] font-bold text-transparent stroke-text-2 mb-4 md:mb-7 border-b border-[#D9D9D9] inline-block">
+        <h2 className="text-[24px] md:text-[40px] font-bold stroke-text-2 mb-4 md:mb-7 border-b border-[#D9D9D9] inline-block">
           {title}
         </h2>
 

@@ -15,7 +15,7 @@ const PlaningCta = ({ title, description, whatsappNumber, buttonText }: PlaningC
   if (!title || !description || !whatsappNumber) return null;
 
   return (
-    <section className="bg-[#ECECEC] pt-0 md:pt-14 px-4 sm:px-6 lg:px-8">
+    <section className=" pt-0 md:pt-14 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1320px] mx-auto">
         
         <div className="bg-white shadow-[0px_37px_28px_0px_#0000000A] rounded-4xl text-center px-6 py-8 md:px-12 md:py-10">

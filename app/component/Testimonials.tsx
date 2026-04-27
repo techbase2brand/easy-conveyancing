@@ -115,7 +115,7 @@ const Testimonials = ({
           {/* Content */}
           <div>
             {title && (
-              <h2 className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[45px] font-bold text-transparent stroke-text mb-3 border-b-1 border-[#AB090F] inline-block">
+              <h2 className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[45px] font-bold stroke-text mb-3 border-b-1 border-[#AB090F] inline-block">
                 {title}
               </h2>
             )}
@@ -168,9 +168,9 @@ const Testimonials = ({
 
                     <div className="flex justify-around gap-4 pt-2 pb-8">
                       {/* Author */}
-                      <h4 className="text-black text-xs font-semibold md:text-sm">
+                      <p className="text-black text-xs font-semibold md:text-sm">
                         {item.co}
-                      </h4>
+                      </p>
                       <span className="text-black text-xs font-semibold">
                         {item.writer}
                       </span>

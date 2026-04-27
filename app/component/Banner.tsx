@@ -34,7 +34,7 @@ const Banner = ({
   );
 
   return (
-    <div className="bg-[#ECECEC] shadow-[0px_4px_10px_0px_#00000017] rounded-2xl pt-3 md:pt-2 pb-8 sm:pb-14 md:pb-18 lg:pb-22 px-4 sm:px-6 lg:px-8">
+    <div className="shadow-[0px_4px_10px_0px_#00000017] rounded-2xl pt-3 md:pt-2 pb-8 sm:pb-14 md:pb-18 lg:pb-22 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1320px] mx-auto">
         {/* Desktop: Row layout | Mobile: Column layout with image on top */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-10 lg:gap-12">
@@ -44,7 +44,7 @@ const Banner = ({
             
             {/* Title */}
             {title && (
-              <h2 className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[45px] font-bold text-transparent stroke-text mb-3 sm:mb-4 pb-2 sm:pb-3 border-b-2 border-[#AB090F] inline-block">
+              <h2 className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[45px] font-bold stroke-text mb-3 sm:mb-4 pb-2 sm:pb-3 border-b-2 border-[#AB090F] inline-block">
                 {title}
               </h2>
             )}

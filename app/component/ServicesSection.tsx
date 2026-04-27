@@ -12,7 +12,7 @@ const ServicesSection = ({ services, imageUrl }: ServicesSectionProps) => {
   
 
   return (
-    <section className="bg-[#ECECEC] px-4 sm:px-6 lg:px-8">
+    <section className="px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1320px] mx-auto ">
         <div className="flex flex-col gap-7 lg:flex-row md:gap-10 items-start lg:items-center">
           {/* LEFT IMAGE */}
@@ -32,7 +32,7 @@ const ServicesSection = ({ services, imageUrl }: ServicesSectionProps) => {
           {/* RIGHT CONTENT */}
           <div className="w-full lg:w-1/2">
 
-            <h2 className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[45px] font-bold text-transparent stroke-text mb-3 border-b-1 border-[#AB090F] inline-block">
+            <h2 className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[45px] font-bold stroke-text mb-3 border-b-1 border-[#AB090F] inline-block">
               Services
             </h2>
 
@@ -44,7 +44,7 @@ const ServicesSection = ({ services, imageUrl }: ServicesSectionProps) => {
               {services.map((item, index) => (
                 <div key={index}
                   className={`flex items-center gap-2 transition-all duration-300  py-0 md:py-1 rounded-2xl `}>
-                  <span className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-bold text-transparent stroke-text inline-block">
+                  <span className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-bold stroke-text inline-block">
                     {index + 1}.
                   </span>
 
