@@ -1,8 +1,9 @@
 import { memo } from 'react';
 import Testimonials from '../component/Testimonials';
 import OurProcess from '../component/OurProcess';
-import WhyClientChoose from '../component/WhyClientChoose';
+
 import ContactBanner from '../component/ContactBanner';
+import ContactWhy from '../component/ContactWhy';
 
 export const metadata = {
   title: "Contact Eazy Conveyancing | Get a Free Property Quote",
@@ -34,7 +35,7 @@ const Page = () => {
                 subheading="Let’s Make Your Property Transaction Easy"
                 subdescription="We respond quickly — usually within the same business day."
             />
-                <WhyClientChoose 
+                <ContactWhy 
                     title="Why Us ?"
                     description="Why Clients Choose Eazy Conveyancing"
                     imageUrl="/why-client-choose.png"
