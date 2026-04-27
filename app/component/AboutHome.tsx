@@ -68,7 +68,7 @@ const AboutHome = ({
           {/* Button */}
           {readMoreText && readMoreUrl && (
             <Link
-              href={readMoreUrl}
+              href={readMoreUrl} title={readMoreUrl} aria-label={readMoreUrl}
               className="inline-flex items-center gap-2 bg-white text-black hover:bg-black hover:text-white font-medium px-5 sm:px-6 py-2 sm:py-2.5 rounded-lg transition-all duration-300 text-sm sm:text-base w-fit whitespace-nowrap"
             >
               {readMoreText}
