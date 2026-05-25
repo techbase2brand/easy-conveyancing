@@ -161,7 +161,9 @@ const Footer = ({ description }: FooterProps) => {
             </div>
             <div className='list-itemed'>
                 <h4 className='text-sm font-semibold text-secondary text-sm md:text-base pb-1'>Address</h4>
-                <p className='text-sm text-secondary mt-1 text-sm md:text-base'>14 Saddle Crescent, Walkley Heights SA 5098</p>
+                <Link href="https://www.google.com/maps/dir//14+Saddle+Cres,+Walkley+Heights+SA+5098,+Australia/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x6ab0b5d95d3b5c85:0xa01d034558ff09f3?sa=X&ved=1t:707&ictx=111" className='text-sm text-secondary hover:underline hover:text-primary transition-all block break-all text-sm md:text-base' target="_blank" rel="noopener noreferrer">
+                    14 Saddle Crescent, Walkley Heights SA 5098
+                </Link>
             </div>
         </div>
     );
