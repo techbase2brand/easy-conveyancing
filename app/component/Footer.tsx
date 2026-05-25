@@ -161,7 +161,7 @@ const Footer = ({ description }: FooterProps) => {
             </div>
             <div className='list-itemed'>
                 <h4 className='text-sm font-semibold text-secondary text-sm md:text-base pb-1'>Address</h4>
-                <p className='text-sm text-secondary mt-1 text-sm md:text-base'>123 Main Street, Anytown, Australia</p>
+                <p className='text-sm text-secondary mt-1 text-sm md:text-base'>14 Saddle Crescent, Walkley Heights SA 5098</p>
             </div>
         </div>
     );
