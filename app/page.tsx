@@ -108,7 +108,7 @@ export default function page() {
       content="We work closely with buyers, sellers, real estate agents, and lenders to ensure every transaction runs smoothly."
     />
     <CTA
-      title="Buying a Property?"
+      title="Consulting"
       description="Before signing a contract, it is important to understand the terms and conditions. We offer a contract review service to help you understand key clauses and obligations before proceeding with your purchase."
       whatsappNumber="61433101353"
     />

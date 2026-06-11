@@ -32,7 +32,7 @@ export default function OurProcess({ title, subheading, description }: OurProces
     },
     {
       id: 2,
-      title: "2. Contract/Pre-sale",
+      title: "2. Pre-Contract / Pre-sale",
       description: "The stage before finalizing a property deal where terms are agreed between buyer and seller.",
       icon: (
         <svg width={88} height={88} viewBox="0 0 95 96" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +45,7 @@ export default function OurProcess({ title, subheading, description }: OurProces
     },
     {
       id: 3,
-      title: "3. Contract Review",
+      title: "3. Contract to Settlement",
       description: "We review contracts and explain important legal conditions to protect your interests.",
       icon: (
         <svg width={88} height={88} viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ export default function OurProcess({ title, subheading, description }: OurProces
     },
     {
       id: 4,
-      title: "4. Settlement",
+      title: "4. Post-completion / Registration",
       description: "We coordinate with all parties to ensure a smooth and timely property settlement.",
       icon: (
         <svg width={88} height={88} viewBox="0 0 95 96" fill="none" xmlns="http://www.w3.org/2000/svg">
