@@ -9,10 +9,10 @@ type CounterItem = {
 };
 
 const data: CounterItem[] = [
-  { value: 850, suffix: "+", label: "ELEGANT APARTMENTS" },
-  { value: 950, suffix: "+", label: "LUXURY HOUSES" },
-  { value: 18000, suffix: "+", label: "SATISFIED GUESTS" },
-  { value: 2000, suffix: "+", label: "HAPPY OWNERS" },
+  { value: 500, suffix: "+", label: "Successful Settlements" },
+  { value: 10, suffix: "+", label: "Years of Combined Experience" },
+  { value: 1000, suffix: "+", label: "Contracts Reviewed" },
+  { value: 100, suffix: "%", label: "Client Satisfaction" },
 ];
 
 const Counter = () => {

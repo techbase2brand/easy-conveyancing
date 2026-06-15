@@ -67,7 +67,7 @@ const Footer = ({ description }: FooterProps) => {
         <ul className='text-sm text-secondary mt-2 space-y-2'>
             <li><Link href="/" title='Home' aria-label='Home' className={`transition-all ${pathname === "/"? "underline text-primary": "hover:text-primary hover:underline"} text-sm md:text-base`}>Home</Link></li>
             <li><Link href="/about" title='About Us' aria-label='About Us' className={`transition-all ${pathname === "/about"? "underline text-primary": "hover:text-primary hover:underline"} text-sm md:text-base`}>About Us</Link></li>
-            <li><Link href="/services/settlement-of-sale-and-purchase-of-property" title='Properties' aria-label='Properties' className={`transition-all ${pathname === "/services/settlement-of-sale-and-purchase-of-property"? "underline text-primary": "hover:text-primary hover:underline"} text-sm md:text-base`}>Properties</Link></li>
+            <li><Link href="/services/settlement-of-sale-and-purchase-of-property" title='Properties' aria-label='Properties' className={`transition-all ${pathname === "/services/settlement-of-sale-and-purchase-of-property"? "underline text-primary": "hover:text-primary hover:underline"} text-sm md:text-base`}>Services</Link></li>
             <li><Link href="/contact-us" title='Contact Us' aria-label='Contact Us' className={`transition-all ${pathname === "/contact-us"? "underline text-primary": "hover:text-primary hover:underline"} text-sm md:text-base`}>Contact Us</Link></li>
         </ul>
     );

@@ -61,7 +61,7 @@ const Testimonials = ({
         </svg>
       ),
       content: '"Professional, efficient, and very helpful throughout our property purchase."',
-      co: "Colorado Springs, CO",
+      co: "Adelaide, SA",
       writer: "— Phil Long Dealerships",
     },
     {
@@ -95,7 +95,7 @@ const Testimonials = ({
         </svg>
       ),
       content: '"Amazing service! They made the entire process seamless and stress-free."',
-      co: "Denver, CO",
+      co: "Mawson Lakes, SA",
       writer: "— Sarah Johnson",
     },
   ];
