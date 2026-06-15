@@ -176,7 +176,7 @@ const ContactBanner = ({ title, subtitle, description1, description, heading, su
           <path d="M21.5005 23.5C22.0528 23.5 22.5005 23.0523 22.5005 22.5C22.5005 21.9477 22.0528 21.5 21.5005 21.5C20.9482 21.5 20.5005 21.9477 20.5005 22.5C20.5005 23.0523 20.9482 23.5 21.5005 23.5Z" fill="#FFDD40" />
         </svg>
       ),
-      title: "Monday – Friday: 9:00 AM – 5:00 PM Saturday: By Appointment Sunday: Closed",
+      title: "Mon – Fri: 9:00 AM – 5:00 PM",
       href:"",
     },
   ];

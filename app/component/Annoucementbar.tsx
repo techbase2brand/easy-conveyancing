@@ -81,7 +81,7 @@ const Annoucementbar = () => {
                     </Link>
                     {divider}
                     <Link href="https://www.eazyconveyancing.com.au/office-locations/" title='office location' aria-label='office location' className='flex items-center gap-2'>
-                        {watch} Mon - Sun : 9:00 AM - 5:00 PM
+                        {watch} Mon - Fri : 9:00 AM - 5:00 PM
                     </Link>
                     {divider}
                     <Link href="tel:0433 101 353" title='phone' aria-label='phone' className='flex items-center gap-2'>
