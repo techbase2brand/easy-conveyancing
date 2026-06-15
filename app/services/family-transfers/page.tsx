@@ -39,7 +39,7 @@ const Page = () => {
         <Banner
             title="Family Transfers"
             subheading="Property Transfers Between Family Members"
-            description="Transferring property to a spouse or family member?We make the legal process simple and affordable."
+            description="Transferring property to a spouse or family member? We make the legal process simple and affordable."
             buttonText="Chat With Us"
             buttonUrl="https://wa.me/61433101353"
             imageUrl="/family-transfer.png"

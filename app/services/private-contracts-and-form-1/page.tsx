@@ -45,7 +45,7 @@ const Page = () => {
             <FamilyTransfers
                 title=""
                 subheading="What is Form 1?"
-                description="Form 1 is a mandatory disclosure document required when selling property in South Australia. It provides buyers with important legal and property information before settlement.Incorrect preparation can delay or cancel a sale."
+                description="Form 1 is a mandatory disclosure document required when selling property in South Australia. It provides buyers with important legal and property information before settlement. Incorrect preparation can delay or cancel a sale."
                 readMoreText=""
                 readMoreUrl="/"
                 itemHeading="Our Services"

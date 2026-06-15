@@ -69,7 +69,7 @@ const Page = () => {
         <WhoWeAre 
             title=""
             subheading="Who We Are"
-            description="Eazy Conveyancing is led by Registered Conveyancer Sukhvinder Sidhu, providing professional conveyancing services across South Australia. We understand that property transactions can feel overwhelming. Our goal is to remove confusion, handle the legal complexities, and keep your settlement running smoothly from start to finish.You receive personalised service — not a call centre experience."
+            description="Eazy Conveyancing is led by Registered Conveyancer Sukhvinder Sidhu, providing professional conveyancing services across South Australia. We understand that property transactions can feel overwhelming. Our goal is to remove confusion, handle the legal complexities, and keep your settlement running smoothly from start to finish. You receive personalised service — not a call centre experience."
             readMoreText=""
             readMoreUrl=""
             itemHeading="What Makes Us Different"

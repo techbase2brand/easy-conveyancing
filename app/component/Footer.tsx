@@ -157,7 +157,7 @@ const Footer = ({ description }: FooterProps) => {
             </div>
             <div className='list-itemed'>
                 <h4 className='text-sm font-semibold text-secondary text-sm md:text-base pb-1'>Email</h4>
-                <Link href="mailto:info@eazyconveyancing.com" title='email' aria-label='email' className='text-sm text-secondary hover:underline hover:text-primary transition-all block break-all text-sm md:text-base'>info@eazyconveyancing.com</Link>
+                <Link href="mailto:info@eazyconveyancing.com.au" title='email' aria-label='email' className='text-sm text-secondary hover:underline hover:text-primary transition-all block break-all text-sm md:text-base'>info@eazyconveyancing.com.au</Link>
             </div>
             <div className='list-itemed'>
                 <h4 className='text-sm font-semibold text-secondary text-sm md:text-base pb-1'>Address</h4>

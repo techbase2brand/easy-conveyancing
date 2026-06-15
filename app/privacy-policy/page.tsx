@@ -1,5 +1,10 @@
 import { memo } from 'react';
 
+export const metadata = {
+  title: "Privacy Policy",
+  description:
+    "Eazy Conveyancing is committed to protecting your privacy and ensuring that your personal information is handled with care, transparency, and security.", 
+};
 const Page = () => {
   return (
     <div className='px-4 sm:px-6 lg:px-8 '>
@@ -28,6 +33,8 @@ const Page = () => {
         <h3 className='text-1xl md:text-2xl sm:text-xl font-semibold my-2 md:my-3'>Contact Us</h3>
         <p className='text-black text-[15px] md:text-base'>If you have any questions or concerns about this Privacy Policy or how your information is handled, please contact Eazy Conveyancing:</p>
         <p className='text-black text-[15px] md:text-base'>By using our website and services, you agree to the terms outlined in this Privacy Policy.</p>
+        <p className='text-black text-[15px] md:text-base'>Email: <a href="mailto:info@eazyconveyancing.com.au">info@eazyconveyancing.com.au</a></p>
+        <p className='text-black text-[15px] md:text-base'>Phone: <a href="tel:0433101353">0433 101 353</a></p>
       </div>
     </div>
   );

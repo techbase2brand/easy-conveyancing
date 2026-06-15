@@ -81,16 +81,16 @@ const Annoucementbar = () => {
                     </Link>
                     {divider}
                     <Link href="https://www.eazyconveyancing.com.au/office-locations/" title='office location' aria-label='office location' className='flex items-center gap-2'>
-                        {watch} Mon - Sun : 9am - 8pm
+                        {watch} Mon - Sun : 9:00 AM - 5:00 PM
                     </Link>
                     {divider}
-                    <Link href="tel:1300 322 999" title='phone' aria-label='phone' className='flex items-center gap-2'>
+                    <Link href="tel:0433 101 353" title='phone' aria-label='phone' className='flex items-center gap-2'>
                         {telephone} Call 0433 101 353 
                     </Link>
                 </div>
                 {/* mobile  */}
                 <div className='flex md:hidden users-details flex items-center space-x-3 text-xs'>
-                    <Link href="tel:1300 322 999" title='phone' aria-label='phone' className='flex items-center gap-2'>
+                    <Link href="tel:0433 101 353" title='phone' aria-label='phone' className='flex items-center gap-2'>
                         {telephone} Call 0433 101 353 
                     </Link>
                  </div>

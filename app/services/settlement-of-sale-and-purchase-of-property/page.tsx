@@ -51,7 +51,7 @@ const OurSimple = [
             <Banner
                 title="Settlement of Sale and Purchase of Property"
                 subheading="Property Settlement Made Easy & Stress-Free"
-                description="Buying or selling a property?Eazy Conveyancing ensures your settlement process is smooth, compliant, and completed on time."
+                description="Buying or selling a property? Eazy Conveyancing ensures your settlement process is smooth, compliant, and completed on time."
                 buttonText="Chat With Us"
                 buttonUrl="https://wa.me/61433101353"
                 imageUrl="/settlement-of-sale.png"
