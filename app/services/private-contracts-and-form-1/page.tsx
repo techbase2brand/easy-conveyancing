@@ -6,9 +6,9 @@ import Testimonials from '@/app/component/Testimonials';
 import { memo } from 'react';
 
 export const metadata = {
-  title: "Property Transfers Between Family Members | Eazy Conveyancing",
+  title: "Private Sale Contracts & Form 1 Preparation | Eazy Conveyancing",
   description:
-    "Expert conveyancing for family property transfers including spouse transfers. Simple, affordable, and legally compliant services.",
+    "Selling property privately? We prepare legally compliant contracts and disclosure documents.",
   keywords: [
     "Family Property Transfer",
     "Spouse Property Transfer",
