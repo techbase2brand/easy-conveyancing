@@ -1,6 +1,33 @@
 import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
+function getMailTransporter() {
+  const user = process.env.EMAIL_USER?.trim();
+  const pass = process.env.EMAIL_PASSWORD?.trim();
+
+  if (!user || !pass) {
+    throw new Error(
+      'Email is not configured. Set EMAIL_USER and EMAIL_PASSWORD in your hosting environment variables.'
+    );
+  }
+
+  const host = process.env.SMTP_HOST?.trim();
+  if (host) {
+    const port = Number(process.env.SMTP_PORT || 587);
+    return nodemailer.createTransport({
+      host,
+      port,
+      secure: process.env.SMTP_SECURE === 'true' || port === 465,
+      auth: { user, pass },
+    });
+  }
+
+  return nodemailer.createTransport({
+    service: process.env.SMTP_SERVICE?.trim() || 'gmail',
+    auth: { user, pass },
+  });
+}
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -14,14 +41,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Nodemailer transporter
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASSWORD,
-      },
-    });
+    const transporter = getMailTransporter();
 
     // Email content
     const mailOptions = {
@@ -79,9 +99,14 @@ export async function POST(request: NextRequest) {
     const errorMessage = error instanceof Error ? error.message : String(error);
     console.error('Error sending email:', errorMessage);
     console.error('Full error:', error);
-    
+
+    const isConfigError = errorMessage.includes('Email is not configured');
     return NextResponse.json(
-      { error: `Failed to send message: ${errorMessage}` },
+      {
+        error: isConfigError
+          ? 'Contact form is temporarily unavailable. Please try again later or email us directly.'
+          : 'Failed to send message. Please try again later or email us directly.',
+      },
       { status: 500 }
     );
   }
