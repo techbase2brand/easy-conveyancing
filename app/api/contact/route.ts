@@ -45,8 +45,8 @@ export async function POST(request: NextRequest) {
 
     // Email content
     const mailOptions = {
-      from: `"Eazy Conveyancing Website" <info@easyconveyancing.com.au>`,
-      to: 'info@easyconveyancing.com.au',
+      from: `"Eazy Conveyancing Website" <info@eazyconveyancing.com.au>`,
+      to: 'info@eazyconveyancing.com.au',
       replyTo: emailAddress,
       subject: `New Contact Form Submission from ${name}`,
       html: `
