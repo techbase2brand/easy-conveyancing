@@ -95,7 +95,7 @@ const Annoucementbar = () => {
                     </Link>
                  </div>
                 <div className='social-media flex items-center space-x-3'>
-                    <Link href="https://www.linkedin.com/company/eazy-conveyancing" title='linkedin' aria-label='linkedin' target="_blank">
+                    <Link href="https://www.linkedin.com/in/sukhvinder-sidhu-6127512a1/" title='linkedin' aria-label='linkedin' target="_blank">
                         {linkedin}
                     </Link>
                     <Link href="https://www.facebook.com/eazyconveyancing" title='facebook' aria-label='facebook' target="_blank">
